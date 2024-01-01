@@ -73,7 +73,42 @@ form {
 }
 
 
+#first-div{
+  margin-left: 50%;
+}
 
-@media only screen and (min-width: 600px) {
-  
+
+#second-div{
+  margin-left: 50%;
+}
+
+#third-div{
+  margin-left: 50%;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .first-div-pictures{
+    display: none;
+  }
+
+  #first-div{
+    margin-left: 10%;
+  }
+
+  #second-div{
+    margin-left: 10%;
+  }
+
+  #third-div{
+    margin-left: 10%;
+  }
+
+  #contactForm{
+    background-image: url();
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
