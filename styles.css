@@ -54,7 +54,7 @@ form {
     box-sizing: border-box;
   }
 
-  button {
+  #submitbutton {
     background-color: #4CAF50;
     color: white;
     padding: 10px 15px;
@@ -63,10 +63,14 @@ form {
     cursor: pointer;
   }
 
-  button:hover {
+  #submitbutton:hover {
     background-color: #45a049;
   }
 
+
+  button:hover {
+    background-color: grey;
+  }
 
 #comitment-spans{
     color: #45a049;
@@ -80,10 +84,21 @@ form {
 
 #second-div{
   margin-left: 50%;
+  margin-top: 4%;
 }
 
 #third-div{
   margin-left: 50%;
+  margin-bottom: 5%;
+}
+
+#pic3{
+  width: 36%;
+  display: flex; 
+  margin-top: 5%; 
+  margin-bottom: -55%; 
+  margin-left: 5%;
+
 }
 
 
@@ -111,4 +126,6 @@ form {
     padding-left: 10%;
     padding-right: 10%;
   }
+
+
 }
