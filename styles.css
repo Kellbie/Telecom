@@ -101,7 +101,6 @@ form {
   margin-top: -60%; 
   margin-bottom: 2%; 
   margin-left: 5%;
-
 }
 
 #contactForm{
@@ -126,8 +125,7 @@ form {
 
   #third-div{
     margin-left: 10%;
-    padding-bottom: 150%;
-    margin-top: -450%;
+
 
 
 
@@ -140,9 +138,14 @@ form {
   }
 
   #pic3{
-    margin-left: 30%;
-    margin-top: 350%;
-    width: 60%;
+    display: none;
+  }
+
+  .second-div-pictures{
+    display: none;
+  }
+  .pic3{
+    display: none;
   }
 
 }
